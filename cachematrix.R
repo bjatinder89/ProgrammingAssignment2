@@ -40,7 +40,7 @@ cacheSolve <- function(x, ...) {
   
   if (!is.null(i)) {
     
-## retriev it from the cache and skips the computation. 
+## retriev it from the cache and skips the computation 
     
     message("getting cached inverse matrix data")
     return(i)
